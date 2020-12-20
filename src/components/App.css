@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 1540px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.search-form {
+    position: relative;
+    width: 100%;
+    border-radius: .7rem;
+}
+
+.search-term {
+    width: 95%;
+    border: 3px solid #b0dee4;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.searchTerm:focus {
+    color: #136772;
+}
+
+.video-section {
+    display: flex;
+}
+
+@media (max-width: 1000px) {
+    .video-section {
+        flex-direction: column;
+    }
+}
